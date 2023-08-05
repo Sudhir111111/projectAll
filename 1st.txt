@@ -1,0 +1,70 @@
+1. **Singleton Keyword:**  The "singleton" is a design pattern used in object-oriented programming to ensure that a class has only one instance and  provides a global point of access to that instance.
+
+2. **Make a Singleton Class:** To create a singleton class, you typically make the constructor private to prevent direct instantiation, provide a static method to access the single instance, and use lazy initialization or eager initialization based on your requirements.
+
+3. **Interface:** An interface in Java defines a contract that a class must adhere to. It specifies a set of methods that implementing classes must provide. Interfaces allow multiple inheritance of method signatures.
+
+4. **JOIN Keyword in SQL:** The JOIN keyword is used in SQL to combine rows from two or more tables based on a related column between them. Common types of joins include INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN.
+
+5. **Primary and Foreign Key Concept in SQL:** In relational databases, a primary key uniquely identifies a record in a table, while a foreign key establishes a link between two tables, usually referring to the primary key of another table.
+
+6. **Composite Key in Relational Database:** A composite key is a key that consists of two or more columns, used together to uniquely identify a record in a table. It's often used when a single column cannot guarantee uniqueness.
+
+7. **Spring Initialization:** Spring framework provides various mechanisms for initializing beans, such as constructor injection, setter injection, and autowiring. Beans are typically defined in XML or Java configuration files.
+
+8. **IOC (Inversion of Control):** IOC is a design principle where the control of object creation and dependency injection is shifted from the application code to a container. It helps achieve loose coupling and better manageability.
+
+9. **How IOC Container Works in Spring:** The Spring IOC container manages the lifecycle of beans, their creation, configuration, and injection of dependencies. It uses configuration metadata (XML, annotations, or Java configuration) to wire beans together.
+
+10. **Advantages of Spring over Java:** Spring provides features like dependency injection, aspect-oriented programming, easier unit testing, and modularity, which can lead to cleaner, more maintainable code compared to plain Java.
+
+11. **Lambda in Java 8:** Lambda expressions are anonymous functions introduced in Java 8. They allow you to write concise and expressive code, especially when working with functional interfaces.
+
+12. **Reason for Lambda Introduction in Java 8:** Lambda expressions were introduced to simplify the use of functional interfaces and enable functional programming constructs in Java.
+
+13. **Spring Jobs:** It's unclear what specifically you're referring to here. Spring can handle various job-related tasks through features like Spring Batch and scheduling using Spring's built-in mechanisms or third-party libraries.
+
+14. **Handling Load on an API:** Handling load involves techniques like load balancing, caching, optimizing database queries, and employing scalable infrastructure to distribute traffic effectively.
+
+15. **Projects and Responsibilities:** This question pertains to your personal experience and responsibilities in your projects, so you would provide details about how you managed tasks, solved problems, and contributed to the projects.
+
+16. **HashSet:** HashSet is a collection in Java that implements the Set interface. It uses a hash table for storage, allowing for constant-time average complexity for basic operations.
+
+17. **ArrayList vs. LinkedList:** Both are List implementations in Java. ArrayList uses a dynamic array for storage, while LinkedList uses a doubly-linked list. ArrayList is efficient for random access, while LinkedList is better for frequent insertions/removals.
+
+18. **Abstract vs. Interface:** Both are used for achieving abstraction in Java. An abstract class can have fields and methods, while an interface only has method signatures. A class can implement multiple interfaces, but extend only one abstract class.
+
+19. **Java 8 Features:** Java 8 introduced lambda expressions, the Stream API, default methods in interfaces, the java.time package for date and time, and more.
+
+20. **Default Method in Java 8:** Default methods in interfaces allow you to add new methods to an interface without breaking the classes that implement it. It helps maintain backward compatibility.
+
+21. **Java 11 Features:** Java 11 brought improvements like local-variable syntax for lambda parameters, the HttpClient API, and enhancements to the String class.
+
+22. **Java Patterns:** Design patterns are reusable solutions to common problems in software design. Examples include Singleton, Factory, Observer, and Strategy patterns.
+
+23. **Spring Boot Advantages:** Spring Boot simplifies the process of building and deploying Spring applications by providing auto-configuration, embedded servers, and production-ready features.
+
+24. **AWS Cloud:** Amazon Web Services (AWS) is a cloud computing platform offering various services like computing power, storage, and databases to help businesses scale and grow.
+
+25. **Spring vs. Spring Boot:** Spring is a comprehensive framework for building Java applications, while Spring Boot is a project within the Spring ecosystem that simplifies the process of building stand-alone, production-grade Spring-based applications.
+
+26. **Dependency Injection:** Dependency injection is a technique where the dependencies of a class are provided from the outside (usually by a framework or container) rather than the class creating them itself. It promotes loose coupling and easier testing.
+
+27. **RestController vs. Controller:** In Spring, `@Controller` is used to create a controller class that handles web requests and returns views, while `@RestController` combines `@Controller` and `@ResponseBody`, returning data in a format like JSON.
+
+28. **Response Body Location:** In Spring, the `@ResponseBody` annotation indicates that the return value of a method should be serialized and sent in the response body. This happens on the backend before the response is sent to the frontend.
+
+29. **Types of Databases:** You would mention the types of databases you are familiar with, such as relational databases (e.g., MySQL, PostgreSQL), NoSQL databases (e.g., MongoDB, Cassandra), etc.
+
+30. **Angular:** Angular is a popular front-end framework for building dynamic web applications. Questions related to Angular could cover topics like components, directives, services, and data binding.
+
+31. **FlatMap():** `flatMap()` is a method in Java's Stream API that's used to flatten a stream of streams into a single stream. It's often used in scenarios where you have nested collections.
+
+32. **Functional Interface:** A functional interface is an interface that contains only one abstract method. It is used as a basis for lambda expressions and method references in Java.
+
+33. **Bean Scope:** In Spring, a bean scope defines the lifecycle and visibility of a bean. Common scopes include singleton (one instance per container), prototype (new instance per request), and more.
+
+34. **Property of Tree Map:** A TreeMap is a sorted map implementation in Java that stores its entries in a sorted order based on their keys.
+
+35. **Sorting of Linear Array Complexity:** Sorting algorithms have different time complexities. Common sorting algorithms like QuickSort and MergeSort have an average case complexity of O(n log n) for sorting a linear array.
+
